@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&display=swap');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Open Sans Condensed", sans-serif;
+$family-secondary: "Kaushan Script";
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/base/_all.sass";
+// @import "../node_modules/bulma/sass/elements/button.sass";
+// @import "../node_modules/bulma/sass/elements/container.sass";
+// @import "../node_modules/bulma/sass/elements/title.sass";
+// @import "../node_modules/bulma/sass/form/_all.sass";
+// @import "../node_modules/bulma/sass/components/navbar.sass";
+// @import "../node_modules/bulma/sass/layout/hero.sass";
+// @import "../node_modules/bulma/sass/layout/section.sass";
+// @import "../node_modules/bulma/sass/helpers/typography.sass"
+@import "../node_modules/bulma/bulma.sass";
+
+html{overflow: hidden;}
+body{scroll-snap-type: y mandatory; height: 100vh; overflow-y: scroll; scroll-behavior: smooth;}
+.hero,.footer{scroll-snap-align: start; }
+.wedding-background{
+    background-image: url('../images/flowers.png')!important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.is-wedding{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+};
+.is-wedding.is-cover{
+    background-image:
+        radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1)),
+        url('../images/heart-529607_1280.jpg')!important;
+}
+
+.is-wedding.is-two{
+    background-image:
+        linear-gradient(45deg, white, rgba(255, 255, 255, 0.2)),
+        url('../images/rings-2634929_1280.png')!important;
+}
+
+.is-wedding.is-four{
+    background-image:
+        linear-gradient(45deg, white, rgba(255, 255, 255, 0.2)),
+        url('../images/wedding-1353829_1280.jpg')!important;
+}
+.is-wedding-size{
+    font-size: 40vh;
+}
+
+.hero-body .image>img{border-radius: 1rem;}
+
+.tabs-content li {
+    display: none;
+    list-style: none;
+}
+
+.tabs-content li.is-active {
+    display: block;
+}

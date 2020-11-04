@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Abel:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Abel", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+@import "../node_modules/bulma/bulma.sass";
+// Import only what you need from Bulma
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/base/_all.sass";
+// @import "../node_modules/bulma/sass/elements/button.sass";
+// @import "../node_modules/bulma/sass/elements/container.sass";
+// @import "../node_modules/bulma/sass/elements/title.sass";
+// @import "../node_modules/bulma/sass/form/_all.sass";
+// @import "../node_modules/bulma/sass/components/navbar.sass";
+// @import "../node_modules/bulma/sass/layout/hero.sass";
+// @import "../node_modules/bulma/sass/layout/section.sass";
+
+// body{
+//     background-image: linear-gradient(135deg, $primary, transparent);
+//     background-position: center;
+// }
+
+.hero-video-bg {
+   object-fit: cover;
+   opacity: 0.6;
+}
+
+.parallax{
+    background-size: cover!important;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.parallax.parallax-1{
+    background-image: url('../images/adventure-1867074_1280.jpg');
+    // clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0% 100%);
+}
+
+.parallax.parallax-2{
+    background-image: url('../images/camping-2581242_1280.jpg');
+    // clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.parallax.parallax-3{
+    background-image: url('../images/hot-air-balloons-1984308_1280.jpg');
+    // min-height: 50vh;
+    // clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0% 100%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .hero-video-bg {
+    width: 100%;
+    height: auto;
+    
+    }
+    }
+    
+@media (max-aspect-ratio: 16/9) {
+    .hero-video-bg {
+    width: auto;
+    height: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "web development with Bulma",
+  "main": "sass/style.scss",
+  "scripts": {
+  },
+  "author": "Mario Abreu",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@vizuaalog/bulmajs": "^0.11.0",
+    "aos": "^2.3.4",
+    "bulma": "^0.9.1",
+    "bulma-carousel": "^4.0.4",
+    "node-sass": "^4.14.1"
+  }
+}

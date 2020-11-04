@@ -1,0 +1,22 @@
+{
+  "name": "hotel",
+  "version": "0.0.1",
+  "description": "Hotel in Bulma",
+  "main": "sass/styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/hotel.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bulma-calendar": "^6.0.9",
+    "bulma-carousel": "^4.0.4"
+  }
+}

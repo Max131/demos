@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.hero{
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), url('auto3.jpg') center / cover;
+}
+
+.hero-foot{
+    margin-bottom: 2rem;
+}
+
+.spaced-title{
+    margin-top: 5rem;
+}
+
+.border-right{
+    border-right: 1px solid white;
+}
+
+.reserve-button{
+    margin-top: 1rem;
+    width: 20rem;
+}

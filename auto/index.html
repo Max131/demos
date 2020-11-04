@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed your life!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+    <section class="hero is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="" class="navbar-item">
+                            <span class="subtitle is-4 has-text-dark">Auto Demo</span>
+                        </a>
+                        <a class="navbar-burger" data-target="navMenu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="navbar-menu" id="navMenu">
+                        <div class="navbar-start">
+                            <a href="" class="navbar-item">Model S</a>
+                            <a href="" class="navbar-item">Model X</a>
+                            <a href="" class="navbar-item">Model Y</a>
+                        </div>
+                        <div class="navbar-end">
+                            <div class="navbar-item buttons">
+                                <a href="" class="button is-dark is-outlined">Precios</a>
+                                <a href="" class="button is-dark is-outlined">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="content has-text-centered is-overlay spaced-title">
+                <h2 class="subtitle is-3 has-text-weight-light has-text-grey-dark">Tu vida</h2>
+                <h1 class="title is-1">¡Al Máximo!</h1>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="container">
+                <div class="container has-text-centered has-text-white">
+                    <p>
+                        ​El auto más veloz del mundo, con ajustes auto guardables de<br>
+				        aceleración, amplitud y rendimiento.
+                    </p>
+                </div>
+            </div>
+            <div class="columns is-centered is-mobile is-marginless">
+                <div class="column is-narrow border-right">
+                    <p class="title is-3 has-text-centered has-text-white">
+                        <span class="icon"><i class="fas fa-tachometer-alt has-text-white" style="height: 1.1rem;"></i></span>
+                        1.9<span class="is-size-6">s</span>
+                    </p>
+                    <p class="subtitle is-7 has-text-centered has-text-white">0-100 kph</p>
+                </div>
+                <div class="column is-narrow border-right">
+                    <p class="title is-3 has-text-centered has-text-white">
+                        +400<span class="is-size-6">kph</span>
+                    </p>
+                    <p class="subtitle is-6  has-text-centered has-text-white">
+                        Velocidad Máxima
+                    </p>
+                </div>
+                <div class="column is-narrow">
+                    <p class="title is-3 has-text-centered has-text-white">
+                        820<span class="is-size-6">hp</span>
+                    </p>
+                    <p class="subtitle is-6  has-text-centered has-text-white">
+                        Gran Poder
+                    </p>
+                </div>
+            </div>
+            <div class="content has-text-centered">
+                <a href="#!" class="button is-rounded is-outlined is-danger is-inverted reserve-button">Reservar ahora</a>
+            </div>
+        </div>
+    </section>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+if ($navbarBurgers.length > 0) {
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+    });
+  });
+}
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "bulma-dev",
+  "version": "0.0.1",
+  "description": "Bulma dev test",
+  "main": "sass/styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^4.14.1"
+  }
+}
