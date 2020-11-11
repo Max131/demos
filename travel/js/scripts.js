@@ -1,4 +1,4 @@
-
+  AOS.init();
 
   bulmaCarousel.attach('#carousel-demo', {
     slidesToScroll: 1,
