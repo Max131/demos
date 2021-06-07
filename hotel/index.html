@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="has-navbar-fixed-top">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a href="/" class="navbar-item"><span class="title">Hotel Paraíso</span></a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenuHeroA">
@@ -23,29 +23,33 @@
         </a>
       </div>
       <div id="navbarMenuHeroA" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item">
+            <a href="#" class="mx-2 has-text-grey"><span class="icon"><i class="fab fa-facebook fa-lg"></i></span></a>
+            <a href="#" class="mx-2 has-text-grey"><span class="icon"><i class="fab fa-twitter fa-lg"></i></span></a>
+            <a href="#" class="mx-2 has-text-grey"><span class="icon"><i class="fab fa-instagram fa-lg"></i></span></a>
+            <a href="#" class="mx-2 has-text-grey"><span class="icon"><i class="fab fa-tripadvisor fa-lg"></i></span></a>
+          </div>
+        </div>
         <div class="navbar-end">
             <span class="navbar-item">
               <a class="has-text-dark">
                 <span>Habitaciones</span>
-                <span class="icon"><i class="fas fa-hotel"></i></span>
               </a>
             </span>
             <span class="navbar-item">
               <a class="has-text-dark">
                 <span>Actividades</span>
-                <span class="icon"><i class="fas fa-tree"></i></span>
               </a>
             </span>
             <span class="navbar-item">
               <a class="has-text-dark">
                 <span>Ubicación</span>
-                <span class="icon"><i class="fas fa-map-marker"></i></span>
               </a>
             </span>
             <span class="navbar-item">
               <a class="has-text-dark">
                 <span>Reserva</span> 
-                <span class="icon"><i class="fas fa-bookmark"></i></span>
               </a>
             </span>
         </div>
@@ -277,6 +281,26 @@
               </span>
             </div>
           </div>
+
+          <div class="field">
+            <label class="label">Número de personas:</label>
+            <div class="control has-icons-left">
+              <input class="input is-primary" type="number" placeholder="Cantidad" required value="1">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Número de niños:</label>
+            <div class="control has-icons-left">
+              <input class="input is-primary" type="number" placeholder="Cantidad" required value="0">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+          </div>          
           
           <div class="field">
             <label class="label">Días a reservar</label>
@@ -301,19 +325,6 @@
             </div>
           </div>
           
-          <div class="field">
-            <div class="control">
-              <label class="radio">
-                <input type="radio" name="question">
-                Sí
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                No
-              </label>
-            </div>
-          </div>
-          
           <div class="field is-grouped">
             <div class="control">
               <button class="button is-link">Enviar</button>
@@ -329,7 +340,7 @@
   <footer class="footer has-background-primary">
     <div class="content has-text-centered has-text-white is-family-secondary">
       <p>
-        <strong class="has-text-white">Demo Hotel 2020&copy;</strong> desarrollado por <a href="https://thinkonline.xyz" target="_blank">Think Online!</a>.
+        <strong class="has-text-white">Hotel 2020&copy;</strong> desarrollado por <a href="https://portfolio.mabreumx.com" target="_blank" rel="noopener">Mario Abreu</a>.
       </p>
     </div>
   </footer>
