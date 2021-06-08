@@ -26,11 +26,11 @@ var calendars = bulmaCalendar.attach('[type="date"]',{
     isRange: true,
     dateFormat: 'DD/MM/YYYY',
     displayMode: 'dialog',
-    cancelLabel: 'Cancelar',
-    clearLabel: 'Limpiar',
-    todayLabel: 'Hoy',
-    nowLabel: 'Ahora',
-    validateLabel: 'Validar',
-    labelFrom: 'Desde',
-    labelTo: 'Hasta'
+    cancelLabel: 'Cancel',
+    clearLabel: 'Clean',
+    todayLabel: 'Today',
+    nowLabel: 'Now',
+    validateLabel: 'Validate',
+    labelFrom: 'From',
+    labelTo: 'To'
 });
