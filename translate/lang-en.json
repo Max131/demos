@@ -1,0 +1,39 @@
+{
+  "jobs":[
+    {
+      "id": 0,
+      "title": "Teacher",
+      "description": "Teaching computer science classes. Including Windows, Office, CorelDraw and Aspel SAE."
+    },
+    {
+      "id": 1,
+      "title": "Systems assistant",
+      "description": "Responsible for the technical support of the branch, as well as the preventive and corrective maintenance of the equipment. Gatorade CRONOS DTS System Administrator."
+    },
+    {
+      "id": 2,
+      "title": "Systems manager",
+      "description": "General manager of the systems area, support to all departments and data server and ASPEL ensuring its availability and access, technical support of the computer equipment. As responsible I managed to improve the network system, the implementation of a server for the ASPEL systems was carried out, improving the administrative work in the network. The responsive website of the company was also made."
+    },
+    {
+      "id": 3,
+      "title": "Lego robotics Teacher",
+      "description": "Teaching Lego robotics classes with Lego Education material (WeDO and EV3) for children and young people. The class was carried out stimulating the students to make different creations following the learning methods established by the company (learning by doing)."
+    },
+    {
+      "id": 4,
+      "title": "Responsible for systems and quotes",
+      "description": "Responsible for general systems and quotation office, general systems tech support and quotations for spare parts and industrial machinery."
+    },
+    {
+      "id": 5,
+      "title": "Web layout designer/developer",
+      "description": "Development and layout of landing page website projects with HTML5, CSS3 and JS for various companies in Think Online! The layout was mainly done using the Bulma framework. They was made with it the semantic aspect in mind, in addition to the implementation of basic SEO (OpenGraph, Twitter Card, JSON-LD)."
+    }
+  ],
+  "myinfo": "I have worked almost all my job life in technical support and some times as a layout designer. I wish to work as front end developer or/and layout design. I'm constantly learning about these topics and I enjoy it (thanks to Frontend Mentor) among other sites.",
+  "skills": "Skills",
+  "tolearn": "I want to learn",
+  "contact": "Contact Me",
+  "portfolio": "Showcase and templates"
+}

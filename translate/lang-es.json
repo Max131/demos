@@ -1,0 +1,39 @@
+{
+  "jobs":[
+    {
+      "id": 0,
+      "title": "Docente",
+      "description": "Impartición de clases de informática. Incluyendo Windows, Office, CorelDraw y Aspel SAE"
+    },
+    {
+      "id": 1,
+      "title": "Auxiliar de sistemas",
+      "description": "Responsable del soporte técnico de la sucursal, así como del mantenimiento preventivo y correctivo de los equipos. Administrador del sistema CRONOS DTS de Gatorade."
+    },
+    {
+      "id": 2,
+      "title": "Responsable de sistemas",
+      "description": "Responsable general del área de sistemas, soporte a todos los departamentos y servidor de datos y ASPEL asegurando su disponibilidad y acceso, soporte técnico del equipo de computo. Como responsable logré mejorar el el sistema de red, se realizó la implementación de un servidor para los sistemas ASPEL mejorando el trabajo administrativo en red. También se realizó el sitio web responsivo de la compañía."
+    },
+    {
+      "id": 3,
+      "title": "Profesor de robótica LEGO",
+      "description": "Impartición de clases con material educativo Lego (WeDO y EV3) para niños y jóvenes. Las clases se impartían estimulando a los estudiantes a realizar diferentes creaciones siguiendo el método establecido por la compañía (aprender haciendo)."
+    },
+    {
+      "id": 4,
+      "title": "Responsable de sistemas y cotizaciones",
+      "description": "Responsable general sistemas y oficina de cotizaciones, soporte general de sistemas y realización de cotizaciones de refacciones y maquinaria industrial."
+    },
+    {
+      "id": 5,
+      "title": "Maquetador / Desarrollador Web",
+      "description": "Desarrollo y maquetación de proyectos de sitios web tipo landing page con HTML5, CSS3 y JS para varias empresas en Think Online! La maquetación se realizaba principalmente usando el framework Bulma. Se realizaba teniendo en cuenta el aspecto semántico, además de la implementación de SEO básico (OpenGraph, Twitter Card, JSON-LD)."
+    }
+  ],
+  "myinfo": "He trabajado casi toda mi vida laboral en soporte técnico y algunas veces como maquetador. Deseo trabajar como desarrollador front-end y / o maquetador totalmente. Aprendo constantemente sobre estos temas y lo disfruto (gracias a Frontend Mentor) entre otros sitios.",
+  "skills": "Habilidades",
+  "tolearn": "Quiero aprender",
+  "contact": "Contáctame",
+  "portfolio": "Muestras y plantillas"
+}

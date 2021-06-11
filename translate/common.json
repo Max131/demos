@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 0,
+      "enterprise": "Instituto de informática y computación aplicada",
+      "date-start": "2001",
+      "date-end": "2003"
+    },
+    {
+      "id": 1,
+      "enterprise": "JJALF",
+      "date-start": "2003",
+      "date-end": "2012"
+    },
+    {
+      "id": 2,
+      "enterprise": "ACM Manufactured",
+      "date-start": "2014",
+      "date-end": "2017"
+    },
+    {
+      "id": 3,
+      "enterprise": "Thunderbots Academy",
+      "date-start": "2018",
+      "date-end": "2019"
+    },
+    {
+      "id": 4,
+      "enterprise": "Servicios Industriales Cominds S. A. de C. V.",
+      "date-start": "2019",
+      "date-end": "2019"
+    },
+    {
+      "id": 5,
+      "enterprise": "Freelance",
+      "date-start": "2019",
+      "date-end": "2021"
+    }
+  ]
+}

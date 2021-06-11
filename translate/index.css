@@ -1,0 +1,40 @@
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css');
+/* @import url('https://fonts.googleapis.com/css2?family=PT-Mono:wght@400;600&display=swap'); */
+html{
+  box-sizing: border-box;
+  font-size: 20px;
+}
+body{
+  font-family: 'PT Mono', system-ui, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  background: linear-gradient(to bottom right, slateblue, darkslategrey);
+  color: #334455;
+  font-display: optional;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1440' preserveAspectRatio='none' viewBox='0 0 1440 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1026%26quot%3b)' fill='none'%3e%3crect width='1440' height='1440' x='0' y='0' fill='rgba(34%2c 51%2c 68%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c718.035C135.905%2c718.085%2c284.526%2c686.518%2c377.486%2c587.379C466.794%2c492.134%2c450.536%2c344.172%2c471.411%2c215.286C486.921%2c119.525%2c494.105%2c26.897%2c483.889%2c-69.573C473.297%2c-169.595%2c470.471%2c-275.006%2c410.909%2c-356.055C349.273%2c-439.926%2c246.148%2c-474.268%2c152.739%2c-520.181C40.176%2c-575.508%2c-73.205%2c-693.87%2c-191.487%2c-652.146C-311.258%2c-609.897%2c-321.787%2c-442.974%2c-382.449%2c-331.394C-429.051%2c-245.676%2c-477.418%2c-165.964%2c-506.448%2c-72.816C-540.544%2c36.587%2c-588.34%2c146.175%2c-566.332%2c258.635C-541.57%2c385.17%2c-477.439%2c505.874%2c-377.306%2c587.1C-271.781%2c672.701%2c-135.879%2c717.985%2c0%2c718.035' fill='%23192632'%3e%3c/path%3e%3cpath d='M1440 1988.845C1566.61 2013.5149999999999 1698.766 2078.032 1817.214 2026.9569999999999 1938.561 1974.6309999999999 2011.319 1845.871 2058.1459999999997 1722.298 2103.214 1603.367 2107.6459999999997 1471.522 2074.191 1348.817 2042.982 1234.351 1961.498 1144.728 1877.758 1060.68 1798.925 981.558 1707.587 922.191 1605.036 877.939 1490.41 828.476 1368.286 752.672 1248.949 789.34 1129.7 825.981 1089.961 971.768 1004.3530000000001 1062.51 913.768 1158.528 758.347 1208.905 731.241 1338.096 704.146 1467.238 791.805 1594.189 870.594 1700.039 939.419 1792.503 1043.945 1844.173 1146.745 1896.314 1240.05 1943.6390000000001 1337.31 1968.836 1440 1988.845' fill='%232b4056'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1026'%3e%3crect width='1440' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-attachment: fixed;
+}
+main{
+  background-color: whitesmoke;
+  border-radius: 0.25rem;
+  max-width: 8.5in;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 30px -10px;
+}
+article:not(:last-of-type){
+  margin-top: 2em;
+  border-bottom: 1px dotted;
+}
+h2{
+  font-size: 90%;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+p{
+  margin-bottom: 2em;
+}

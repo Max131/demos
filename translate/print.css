@@ -1,0 +1,30 @@
+@page{
+  size: letter;
+  margin: 1.25cm;
+}
+html{
+  font-size: 10pt;
+}
+main{
+  box-shadow: none;
+}
+article{
+  page-break-inside: avoid;
+  margin-top: 0!important;
+}
+button{
+  display: none;
+}
+h2{
+  font-size: 10pt;
+  font-style: italic;
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 3pt;
+  margin-bottom: 3pt;
+  font-size: 12pt;
+}
+p{
+  text-align: justify;
+}
